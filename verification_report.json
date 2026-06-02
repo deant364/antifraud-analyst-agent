@@ -1,0 +1,14 @@
+{
+  "static_checks": {
+    "script_blocks": 1,
+    "syntax_errors": [],
+    "missing_getElementById_ids": [],
+    "missing_onclick_functions": [],
+    "tab_panel_mismatch": [],
+    "has_grid_overflow_protection": true,
+    "has_mobile_grid_fix": true,
+    "has_url_unavailable_copy_fix": true,
+    "html_size_kb": 85.9
+  },
+  "note": "Проверка выполнена статически: JS-синтаксис, onclick, getElementById, вкладки/панели и CSS-защиты сетки. В среде генерации не установлен Chromium для полноценного screenshot-теста."
+}
