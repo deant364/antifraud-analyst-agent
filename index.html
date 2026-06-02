@@ -707,7 +707,7 @@
 
   <section class="grid metrics-row">
     <div class="card span3">
-      <div class="muted">Приватность</div>
+      <div class="muted">🔒 Приватность</div>
       <div class="metric" id="privacyScore">—</div>
       <span class="status info" id="privacyStatus">не проверено</span>
       <div class="bar"><div id="privacyBar"></div></div>
@@ -715,7 +715,7 @@
     </div>
 
     <div class="card span3">
-      <div class="muted">Fingerprint-риск</div>
+      <div class="muted">🆔 Fingerprint-риск</div>
       <div class="metric" id="fingerprintScore">—</div>
       <span class="status info" id="fingerprintStatus">не проверено</span>
       <div class="bar"><div id="fingerprintBar"></div></div>
@@ -723,7 +723,7 @@
     </div>
 
     <div class="card span3">
-      <div class="muted">Автоматизация</div>
+      <div class="muted">🤖 Автоматизация</div>
       <div class="metric" id="botScore">—</div>
       <span class="status info" id="botStatus">не проверено</span>
       <div class="bar"><div id="botBar"></div></div>
@@ -731,7 +731,7 @@
     </div>
 
     <div class="card span3">
-      <div class="muted">Сбор данных</div>
+      <div class="muted">📡 Сбор данных</div>
       <div class="metric" id="codeScore">—</div>
       <span class="status info" id="codeStatus">код не проверен</span>
       <div class="bar"><div id="codeBar"></div></div>
@@ -1871,7 +1871,7 @@ ${latestSummaryText}
     document.getElementById("historyList").innerHTML = history.map(h => `
       <div class="history-item">
         <div class="history-title">${escapeHtml(h.caseUrl)}</div>
-        <div class="history-meta">${escapeHtml(h.date)} · Fingerprint ${h.fingerprint}/100 · Automation ${h.automation}/100</div>
+        <div class="history-meta">${escapeHtml(h.date)} · 🆔 Fingerprint ${h.fingerprint}/100 · 🤖 Automation ${h.automation}/100</div>
         <span class="status info">${escapeHtml(h.behavior)}</span>
       </div>
     `).join("");
